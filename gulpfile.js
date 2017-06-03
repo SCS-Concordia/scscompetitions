@@ -21,7 +21,6 @@ gulp.task('html', () => {
 
 gulp.task('sass', () => {
   return gulp.src([
-    'node_modules/milligram/dist/milligram.min.css',
     'node_modules/normalize.css/normalize.css',
     'src/css/main.scss'
   ])
