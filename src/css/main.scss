@@ -1,4 +1,25 @@
+$hackertext-green: #20C20E;
+
 body {
   background-color: black;
-  color: white;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  color: $hackertext-green;
+}
+#header-text-row {
+  text-align: center;
+}
+#header-text {
+  width: 100%;
+}
+#inverted-logo {
+  display: block;
+  margin: 0 auto;
+  height: 30rem;
+  margin-bottom: 8rem;
+}
+#challenges-table {
+  td, th {
+    text-align: center;
+  }
 }
