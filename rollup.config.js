@@ -7,6 +7,5 @@ export default {
     babel(),
     uglify()
   ],
-  format: 'iife',
-  moduleName: 'puzzle-hero'
+  format: 'iife'
 };
