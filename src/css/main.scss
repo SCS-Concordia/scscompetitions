@@ -33,6 +33,11 @@ body {
   font-size: 2rem !important;
   line-height: 2rem;
   margin: 0 2rem;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: 5px;
+  padding: 1rem 2rem;
   &:hover {
     color: $grey;
     border: 1px solid $grey;
