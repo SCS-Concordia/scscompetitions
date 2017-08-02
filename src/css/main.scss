@@ -33,6 +33,12 @@ body {
   font-size: 2rem !important;
   line-height: 2rem;
   margin: 0 2rem;
+  background: #000 url('img/slack_logo.png') no-repeat;
+  background-position: center;
+  background-size: 80%;
+  min-width: 200px;
+  min-height: 65px;
+  padding: 4rem;
   &:hover {
     color: $grey;
     border: 1px solid $grey;
