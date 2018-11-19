@@ -1,37 +1,26 @@
 {
-  "name": "scscompetitions",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SCS-Concordia/scscompetitions.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SCS-Concordia/scscompetitions/issues"
-  },
-  "homepage": "https://github.com/SCS-Concordia/scscompetitions#readme",
-  "devDependencies": {
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-es2015": "^6.24.1",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.0.4",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-sass": "^3.1.0",
-    "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-uglify": "^1.0.2",
-    "rollup-stream": "^1.19.0",
-    "run-sequence": "^1.2.2",
-    "vinyl-source-stream": "^1.1.0"
-  },
+  "name": "site",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "normalize.css": "^7.0.0"
-  }
+    "@material-ui/core": "^3.5.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

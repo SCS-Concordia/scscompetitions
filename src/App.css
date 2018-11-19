@@ -1,0 +1,31 @@
+html {
+  background: #eee;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  overflow: scroll;
+  background: #eee;
+}
+
+.PromotionalHeader {
+  background: #932439;
+  color: white;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.PromotionalHeader #logo {
+  height: 16rem;
+}
+
+.PromotionalHeader #slack {
+  height: 2rem;
+  padding:1rem;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.App #content {
+  padding: 2rem 0rem 2rem 0rem;
+}
